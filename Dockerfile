@@ -2,7 +2,7 @@ FROM ruby:2.5-alpine
 LABEL AUTHOR='Shawn Cicoria' EMAIL='github@cicoria.com'
 LABEL REPO='https://github.com/cicorias/travis-cli-container'
 
-ENV TRAVIS_VERSION 1.8.8
+ENV TRAVIS_VERSION 1.10.0
 
 # Install travis cli and ruby dependencies
 #   Also installs dev dependencies (build_deps) for compiling ruby-ffi
